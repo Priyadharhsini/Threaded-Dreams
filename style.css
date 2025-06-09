@@ -1,0 +1,339 @@
+/* Style for body */
+body{
+  font-family: 'Merriweather', serif;
+  background-color: #f2f1f1;
+  overflow-x: hidden;
+}
+/* Style for Mainbar */
+.mainbar .nav-link {
+  color: white;
+}
+.mainbar{
+  background-color: #504e4e!important;
+}
+/* Style for Mainbar and Navbar brand */
+.mainbar .navbar-brand {
+  color: white;
+}
+/* Style for bgvdo */
+.bgvdo{
+    width: 100%!important;
+    position: relative;
+    object-fit: cover;
+    min-height: fit-content!important;
+    filter: brightness(50%);
+  }
+  /* Style for Over */
+  .over{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  .rollon{
+    position: absolute;
+    /* background-color: #504e4e; */
+    background-image: url("./Images/infinity.webp");
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    border: 10px solid rgb(71, 44, 44);
+    padding: 10px;
+    top: 37%;
+    left: 70%;
+    
+    animation-name: rollon;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  transition: all 5s;
+  border-radius: 50%;
+
+
+  }
+ 
+  .btn1{
+    background-color: orange!important;
+    border: none!important;
+    width: 150px!important;
+  }
+  .img1{
+    height: 150px;
+    width: 150px;
+  }
+
+
+.fifpart{
+  min-height: 250px;
+  min-width: 100%; 
+  
+}
+.fifpartimg{
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+.fifimg:hover{
+  transform: scale(1.1);
+}
+.fifimg{
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: rgb(245, 243, 243);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  animation-name: fifimg;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  transition: all 5s;
+}
+.rollon img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1;
+  border: 10px solid rgb(82, 67, 67);
+}
+
+.col .card {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(237, 233, 233);
+  border-radius: 10px;
+  transition: all 1s;
+  /* color: white; */
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.col .card:hover{
+  transform: translate(10px);
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer{
+  font-size: 0.4rem!important;
+  
+}
+.footer {
+    position: relative;
+    margin-top: 45px;
+    color: rgb(255, 253, 253);
+    background-color: #504e4e;
+  }
+  
+  .footer .container-fluid {
+    padding: 60px 0 0 0;
+  }
+  
+  .footer .footer-info {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer .footer-info h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+  
+  }
+  
+  .footer .footer-info h3 {
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    
+  }
+  
+  .footer .footer-addr {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer .footer-addr p {
+    
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 0 15px;
+    
+  }
+  
+  .footer .footer-addr p:last-child {
+    border: none;
+  }
+  
+  .footer .footer-social {
+    position: relative;
+    margin-top: 15px;
+  }
+  
+  .footer .footer-social a {
+    display: inline-block;
+  }
+  
+  .footer .footer-social a i {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #fbf8f8;
+    transition: .3s;
+  }
+  
+  .footer .footer-social a:last-child i {
+    margin: 0;
+  }
+  
+  .footer .footer-social a:hover i {
+    color: #bf6d6d;
+  }
+  
+  .footer .copyright {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .footer .copyright::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 1px;
+    top: 0;
+    left: 25%;
+    background: rgb(254, 254, 254)
+  }
+  
+  .footer .copyright p {
+    margin: 0;
+    color: #f9f8f8;
+    font-size: 20px;
+  }
+  
+  /* .footer .copyright .col-md-6:last-child p {
+    text-align: right;
+  } */
+  .footer .copyright p:hover {
+    color: #414141;
+  }
+
+
+
+
+
+
+
+  /*------------ mediaqueries ------------*/
+
+  @media screen and (min-width:700px) and (max-width:1300px){
+    .over{
+      left: 50%;
+    }
+    .rollon{
+     top: 100%;
+     left: 34%;
+     /* width: 60%; */
+    }
+    .bgvdo{
+      min-height: 170vh!important;
+    }
+    
+  }
+  @media screen and (min-width:400px) and (max-width:700px){
+    .over{
+      left: 50%;
+      top: 57%;
+    }
+    .rollon{
+     top: 110%;
+     left: 25%;
+     /* width: 60%; */
+    }
+    .bgvdo{
+      min-height: 170vh!important;
+    }
+    
+  
+  }
+ 
+ 
+  @media screen and (max-width:400px){
+    .over{
+      left: 50%;
+      top: 80%;
+    }
+    .rollon{
+     top: 120%;
+     left: 50%;
+     width: 60%;
+     display: none;
+    }
+    .bgvdo{
+      min-height: 140vh!important;
+    }
+    .fifimg{
+      
+        height: 387px;
+        width: 281px;
+    }
+   
+  }
+ @media (max-width: 575.98px) {
+    .footer .footer-info h2 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+  
+    .footer .footer-info h3 {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+  
+    .footer .footer-menu p {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 0 5px;
+    }
+  }
+
+
+
+
+
+  
+  /* animations */
+  @keyframes fifimg {
+    from{
+      transform: translateX(-150px);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }
+  @keyframes rollon {
+    from {
+     opacity: 0;
+transform: scale(0);
+    }
+    to {
+      transform: scale(1.1);
+     opacity: 1;
+    }
+  }
+  

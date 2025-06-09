@@ -1,0 +1,418 @@
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #f7f4f4;
+    overflow-x: hidden;
+}
+a{
+  text-decoration: none!important;
+}
+.mainbar{
+   background-color: #504e4e!important;
+}
+.mainbar .nav-link {
+    color: white;
+  }
+  .mainbar .navbar-brand {
+    color: white;
+  }
+marquee h2{
+    background-color: #86c7db!important;
+}  
+.firstpart{
+    min-height: 400px;
+    min-width: 100%;
+   
+    margin-top:100px;
+}
+.firstleft , .firstright{
+    min-height: 400px;
+    min-width: 50%;
+   
+}
+.firstleft{
+    animation-name: firstleft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+}
+.firstright{
+    animation-name: firstleft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  
+}
+.firstbtn{
+    animation-name: firstleft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  }
+  .col video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  }
+  .col .card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  }
+  .customlist a{
+    text-decoration: none;
+  }
+  .customservice{
+    background-color: #504e4e!important;
+    animation-name: customservice;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+   transition: all 5s;
+  }
+  .review:hover{
+    transform: translate(10px);
+    transition: all 1s;
+  }
+  .footer {
+    position: relative;
+    margin-top: 45px;
+   
+    background-color:  #504e4e;
+  }
+  
+  .footer .container-fluid {
+    padding: 60px 0 0 0;
+  }
+  
+  .footer .footer-info {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer .footer-info h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .footer .footer-info h3 {
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .footer .footer-addr {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer .footer-addr p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 0 15px;
+    border-right: 1px solid #ffffff;
+  }
+  
+  .footer .footer-addr p:last-child {
+    border: none;
+  }
+  
+  .footer .footer-social {
+    position: relative;
+    margin-top: 15px;
+  }
+  
+  .footer .footer-social a {
+    display: inline-block;
+  }
+  
+  .footer .footer-social a i {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #ffffff;
+    transition: .3s;
+  }
+
+  
+  .footer .footer-social a:last-child i {
+    margin: 0;
+  }
+  
+  .footer .footer-social a:hover i {
+    color: #414141;
+  }
+  
+  .footer .copyright {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .footer .copyright::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 1px;
+    top: 0;
+    left: 25%;
+    background: rgba(256, 256, 256, 0.2);
+  }
+  
+  .footer .copyright p {
+    margin: 0;
+    color: #ffffff;
+  }
+  .footer .copyright p:hover {
+    color: #414141;
+  }
+  .customrow{
+    animation-name: customrow;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+   transition: all 5s; 
+  }
+  .customrow1{
+    animation-name: customrow1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+   transition: all 5s; 
+  }
+  .custompillow:hover{
+    transform: translate(3px);
+    background-color: #504e4e;
+    border: 1px solid black;
+    padding: 0px;
+    transition: all 1s;
+  }
+  .customhead{
+    animation-name: customservice;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+   transition: all 5s; 
+  }
+  .customrow2{
+    animation-name: customerow2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timeline: view();
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-range: entry 0% cover 40%;
+   transition: all 5s; 
+  }
+  .custompack .card:hover{
+    transform: translate(10px);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: #504e4e;
+    padding: 0px;
+    transition: all 1s;
+  }
+/* mediaqueries */
+@media only screen and (min-width:650px) and (max-width:1200px){
+    .firstpart{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstleft{
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstright{
+        min-width: 100%;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:650px){
+    .firstpart{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstleft{
+        min-width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstright{
+        min-width: 100%;
+    }
+    .firstimg{
+        min-width: unset;
+        width: 500px;
+    }
+}
+@media only screen and (max-width:500px){
+    .firstpart{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstleft{
+        min-width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstright{
+        min-width: 100%;
+    }
+    .firstimg{
+        min-width: unset;
+        width: 300px;
+    }
+}
+@media (max-width: 380px) {
+    footer {
+      width: 100%!important;
+     margin-left: 30px!important;
+      padding: 1rem;
+    }
+    footer ul {
+      padding: 0;
+    }
+    footer li {
+      font-size: 0.8rem;
+    }
+    .packagecard{
+        width: 10rem!important;
+      }
+  }
+  @media (max-width: 575.98px) {
+    .footer .footer-info h2 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+  
+    .footer .footer-info h3 {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+  
+    .footer .footer-menu p {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 0 5px;
+    }
+  }
+
+/* Animations */
+
+@keyframes firstleft {
+    from{
+        transform: translateY(-150px);
+        opacity: 0.5;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/* @keyframes firstright {
+    from{
+        transform: translateX(150px);
+        opacity: 0.5;
+        
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+} */
+@keyframes secdiv {
+    from{
+        transform: scaleY(0);
+        opacity : 0.5;
+        /* transform: rotate(20deg); */
+    }
+    to{
+        transform: scaleY(1.2);
+        opacity: 1
+    }
+}
+@keyframes customservice {
+    from{
+        transform: translateY(100px);
+        opacity : 0.5;
+        /* transform: rotate(20deg); */
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+@keyframes customrow {
+    from{
+        transform: translateX(100px);
+        opacity : 0.5;
+        /* transform: rotate(20deg); */
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+@keyframes customrow1 {
+    from{
+        transform: translateX(-100px);
+        opacity : 0.5;
+        /* transform: rotate(20deg); */
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+@keyframes customrow2{
+    0%{
+        transform: translateX(-300px);
+        opacity : 0.5;
+        /* transform: rotate(20deg); */
+    }
+    25%{
+        transform: translateX(-200px);
+        opacity: 1;
+        transition-delay: 2s;
+    }
+    50%{
+        transform: translateX(-100px);
+        opacity: 1;
+        transition-delay: 4s;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+        transition-delay: 6s;
+    }
+}
+
